@@ -23,3 +23,8 @@ spring:
 logging:
   level:
     leeseunghee.study: DEBUG
+
+jwt:
+  header: Authorization
+  secret: c3ByaW5nLWJvb3Qtc2VjdXJpdHktand0LXR1dG9yaWFsLXNlY3JldAo=
+  token-validity-in-seconds: 86400  # Token 만료 시간(초)
